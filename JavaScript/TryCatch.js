@@ -51,3 +51,9 @@ function letterFinder (word,letter){
 letterFinder(5, 10);
 
 letterFinder("cat", "c");
+try {
+    throw new Error();
+    console.log('Hello');
+  } catch(err) {
+    console.log('Goodbye');
+  }
