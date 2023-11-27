@@ -38,3 +38,13 @@ function arrayBuilder(one, two, three) {
 var simpleArr = arrayBuilder('apple', 'pear', 'plum');
 console.log(simpleArr); // ['apple','pear','plum']
 
+//creating an object
+var virtualPet = {
+    sleepy: true,
+    nap: function() {
+        this.sleepy = false
+    }
+}
+console.log(virtualPet.sleepy) // true
+virtualPet.nap()
+console.log(virtualPet.sleepy) // false
