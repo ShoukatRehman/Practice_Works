@@ -122,6 +122,5 @@ function fun2() {
   if (typeof oopsGlobal != "undefined") {
     output += " oopsGlobal: " + oopsGlobal;
   }
-  //console.log(output);
+  console.log(output);
 }
-console.log(output);
