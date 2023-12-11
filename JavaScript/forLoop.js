@@ -64,7 +64,7 @@ console.log('----for-in is unreliable----');
 for(prop in sportsCar){
     console.log(prop);
 }
-console.log('😀',"Iternating over object AND its prototype!");
+console.log('🤔',"Iternating over object AND its prototype!");
 
 console.log('----for-of is reliable----');
 for(prop of Object.keys(sportsCar)){
