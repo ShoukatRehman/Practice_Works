@@ -71,3 +71,18 @@ for(prop of Object.keys(sportsCar)){
     console.log(prop + ": " + sportsCar[prop]);
 }
 console.log('😂',"Iternating over objects OWN properties only!");
+
+//              Example 04
+const car5 = {
+    engine:true
+}
+const sportsCar1 = Object.create(car5);
+sportsCar1.speed = "fast";
+console.log("The sportsCar Object:",sportsCar1);
+
+for(prop in sportsCar1){
+    console.log('🤔',prop);    
+}
+for(prop of Object.keys(sportsCar1)){
+    console.log('😁',prop + ": " + sportsCar1[prop]);
+}
